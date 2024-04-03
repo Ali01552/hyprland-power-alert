@@ -11,8 +11,9 @@ This simple Python script monitors your battery level and sends notifications wh
 
 1. Clone this repository:
    ```bash
+   pip install psutil
    git clone https://github.com/Ali01552/hyprland-power-alert.git
-   sudo pacman -S python-psutil notify-send  # Arch Linux
+   sudo pacman -S mako  # Arch Linux
    ```
 2. Run the app on startup
 
